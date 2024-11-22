@@ -1,0 +1,60 @@
+body {
+    background-image: url("images/backGround.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mainHeading {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(#26B6F0, #0F64F8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+.fontDesign {
+    background: linear-gradient(#1B44EF, #C93CF0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    margin-top: 10%;
+    margin-left: 4%;
+    padding: 4%;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: #1B44EF;
+    background: linear-gradient(#2685F0, #0FF8C1);
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.btnFont {
+    background: linear-gradient(#1B44EF, #C93CF0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    text-align: center;
+    margin-top: 12%;
+    font-size: 2rem;
+    color: #FFFFFF;
+    border-top: solid #FFFFFF 3px;
+}
+
+.emoji {
+    color: red;
+}
